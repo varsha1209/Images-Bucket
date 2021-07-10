@@ -9,19 +9,19 @@
 /* base styles & title */
 body {
   font-family: "Noto Serif";
-  background-image: linear-gradient(to bottom, rgb(121, 126, 165), rgb(65, 114, 126));
+  background-color: rgb(176, 181, 224)
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
 }
 .title h1 {
-  color:var(--white);
+  color:var(--third);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
   font-style: oblique;
-  text-shadow: 2px 3px var(--main);
+  text-shadow: 2px 3px var(--white);
 }
 .title h2,
 .title p {
@@ -30,13 +30,13 @@ body {
 .title h2 {
   margin-top: 60px;
   font-size: 2.6rem;
-  color: var(--white);
+  color: rgb(58, 56, 56);
 }
 .title p {
   font-size: 18.1px;
   font-weight: 10px;
   text-transform: capitalize;
-  color: var(--white);
+  color: var(-white);
 }
 
 /* upload form styles */
@@ -53,7 +53,7 @@ label {
   display: block;
   width: 40px;
   height: 40px;
-  border: 1px solid var(--third);
+  border: 2px solid var(--white);
   border-radius: 0%;
   margin: 10px auto;
   line-height: 30px;
@@ -76,7 +76,7 @@ label:hover {
 /* progress bar styles */
 .progress-bar {
   height: 5px;
-  background: var(--main);
+  background: var(--white);
   margin-top: 20px;
   border-radius: 4rem;
 }
